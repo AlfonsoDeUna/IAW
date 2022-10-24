@@ -1,0 +1,85 @@
+# JUEGO PIEDRA, PAPEL, TIJERA
+
+``` html
+
+<html>
+<head>
+<script src="javascript.js"></script>
+</head>
+<body onload="main()">
+
+<h1> Piedra, papel, tijera </h1>
+<label id="resultado">RESULTADO YO/MAQUINA</label>
+<hr>
+<button id="piedra" onclick="usuario(1);"> piedra </button>
+<button id="papel" onclick="usuario(2);"> papel</button>
+<button id="tijera" onclick="usuario(3);"> tijera</button>
+
+</body>
+</html>
+
+```
+
+```js
+
+// 1 = piedra
+// 2 = papel
+// 3 = tijera
+valores = [1,2,3];
+contador_usuario = 0;
+contador_maquina = 0;
+
+function juegamaquina() {
+    return Math.floor(Math.random() * 3)+1;
+}
+
+function usuario (valor_usuario) {
+    valor_maquina = juegamaquina();
+    
+    
+    if (comparar (valor_maquina, valor_usuario)) {
+        contador_maquina ++;
+    } else {
+        contador_usuario ++;
+    }
+
+    document.getElementById("resultado").innerHTML = contador_usuario + "/" + contador_maquina;
+
+}
+
+// La función comparar es true si gana la máquina y es false si pierde 
+function comparar (maquina, usuario) {
+    
+    alert ("valor maquina: "+ maquina + " <=> valor usuario: "+ usuario);
+    if (maquina == 1 && usuario==3) {
+        return true;
+    } else if (maquina == usuario) {
+        comparar (juegamaquina(), usuario);
+    } else {
+        return false;
+    }
+
+    if (maquina == 2 && usuario==1) {
+        return true;
+    } else if (maquina == usuario) {
+        comparar (juegamaquina(), usuario);
+    } else {
+        return false;
+    }
+
+    if (maquina == 3 && usuario==2) {
+        return true;
+    } else if (maquina == usuario) {
+        comparar (juegamaquina(), usuario);
+    } else {
+        return false;
+    }
+
+}
+
+function main () {
+
+}
+
+
+```
