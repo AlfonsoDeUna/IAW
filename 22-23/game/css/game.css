@@ -1,0 +1,47 @@
+.background { 
+    background: rgb(52, 166, 251);
+    table-layout: fixed;
+    border-spacing: 0;
+    position:relative;
+  }
+
+  td {
+    padding:0px;
+    margin:0px;
+    border:0px;
+  }
+  tr{
+    border-spacing: 0px;
+  }
+
+.lava { background: rgb(22, 117, 22); }
+
+.grass { background: rgb(124,252,0); }
+
+.actor  { position: absolute;
+             
+          border: solid 1px black;}
+
+.player { background: rgb(34,0, 255); }
+
+.roca { background: rgb(64, 64, 64); }
+
+.asir {
+    background: blue;
+    width: 100px;
+    height: 100px;
+}
+
+.asir2 {
+    background: red;
+    width: 100px;
+    height: 100px;
+}
+
+.game {
+        position: relative;
+        max-width: 600px;
+        max-height: 450px;
+        border: solid 1px black;
+        
+      }
