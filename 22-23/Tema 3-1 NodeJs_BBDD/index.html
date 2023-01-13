@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .btn-group .button {
+        background-color: #4CAF50; /* Green */
+        border: 1px solid green;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        float: left;
+        }
+
+        .btn-group .button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+        }
+
+        .btn-group .button:hover {
+        background-color: #3e8e41;
+        }
+
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            }
+
+            .centerdiv {
+                margin: auto;
+                width: 50%;
+                padding: 10px;
+                }
+    </style>
+</head>
+<body background="https://cdn.wallpapersafari.com/47/44/GDqpEN.jpg">
+    <img class="center" src="foto.jpg"/>
+    <form action="" mehtod="">
+        <div class="btn-group centerdiv" class="btn-group">
+            <button class="button" type="button" onclick="alert('funciona1')">Profe: D.Igna</button>
+            <button class="button" type="button" onclick="alert('funciona 2')">Profe: D.Jesús</button>
+            <button class="button" type="button" onclick="alert('funciona 3')">Profe: D.Alfonso</button>
+        </div>
+    </form>
+</body>
+</html>
