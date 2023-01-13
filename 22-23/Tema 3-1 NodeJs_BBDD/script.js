@@ -60,7 +60,7 @@ app.get('/',function(req,res){
   app.post('/anadirpassword', function(req,res){
     
    //constante de la imagen
-   const inputfile = "C://Users//briof//Pictures//github.jpg";
+   const inputfile = "C://Users//user_concreto//Pictures//github.jpg";
    var photo = readImageFile(inputfile); 
    console.log (photo);
     // guardo el valor que me llega del formulario
