@@ -1,7 +1,7 @@
-**Introducción**:
+# Introducción
 La seguridad es un elemento fundamental en la web moderna. Un método común para asegurar la información es mediante el uso de certificados SSL, que cifran la conexión entre el navegador del usuario y el servidor. Aunque lo ideal es adquirir certificados SSL de autoridades certificadas, hay ocasiones en las que podrías querer generar tu propio certificado autofirmado para pruebas o ambientes de desarrollo. En este resumen, te guiaré a través del proceso de creación de un certificado SSL autofirmado para Apache en Ubuntu 20.04.
 
-**Pasos para crear un certificado SSL autofirmado para Apache en Ubuntu 20.04**:
+## Pasos para crear un certificado SSL autofirmado para Apache en Ubuntu 20.04:
 
 1. **Actualización de paquetes**:
    - Abre una terminal.
