@@ -75,6 +75,5 @@ BalancerMember http://IP_MAQUINA_2 loadfactor=3 timeout=1
 * https://httpd.apache.org/docs/trunk/es/howto/reverse_proxy.html
 * https://httpd.apache.org/docs/trunk/es/howto/
 
-![Configuración proxy inverso en Apache](https://www3.gobiernodecanarias.org/medusa/wiki/images/0/0e/Cc-by-nc-sa_icon.png) {width=200 height=400}
 
 
