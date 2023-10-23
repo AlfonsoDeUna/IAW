@@ -72,8 +72,8 @@ BalancerMember http://IP_MAQUINA_2 loadfactor=3 timeout=1
 ```
 
 # Anexos:
-https://httpd.apache.org/docs/trunk/es/howto/reverse_proxy.html
-https://httpd.apache.org/docs/trunk/es/howto/
+* https://httpd.apache.org/docs/trunk/es/howto/reverse_proxy.html
+* https://httpd.apache.org/docs/trunk/es/howto/
 
-![Creative Commons]([https://httpd.apache.org/docs/trunk/es/images/reverse-proxy-arch.png](https://www.licen.cc/images/license-logos/licen.cc-cc-by-nc-sa.png)https://www.licen.cc/images/license-logos/licen.cc-cc-by-nc-sa.png)
+![Creative Commons](https://www.licen.cc/images/license-logos/licen.cc-cc-by-nc-sa.png)
 
