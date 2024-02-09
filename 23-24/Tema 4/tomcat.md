@@ -55,7 +55,7 @@ select id, foo, bar from testdata
 ```xml
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd%22%3E
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd%22%3E>
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.asir</groupId>
   <artifactId>alfonso</artifactId>
