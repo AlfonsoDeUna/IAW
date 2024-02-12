@@ -97,3 +97,26 @@ select id, foo, bar from testdata
   </build>
 </project>
 ```
+
+# CONTEXT.XML (FICHERO DE CONFIGURACIÓN DE TOMCAT)
+
+```xml
+<Context>
+
+    <!-- Default set of monitored resources. If one of these changes, the    -->
+    <!-- web application will be reloaded.                                   -->
+    <WatchedResource>WEB-INF/web.xml</WatchedResource>
+    <WatchedResource>${catalina.base}/conf/web.xml</WatchedResource>
+
+    <!-- Uncomment this to disable session persistence across Tomcat restarts -->
+    <!--
+    <Manager pathname="" />
+    -->
+
+	<Resource name="jdbc/TestDB" auth="Container" type="javax.sql.DataSource"
+              maxTotal="100" maxIdle="30" maxWaitMillis="10000"
+               username="root" password="" driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/TestDB"/>
+
+</Context>
+```
